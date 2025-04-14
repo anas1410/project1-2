@@ -603,7 +603,7 @@ margin-top: 30px;
     .haeder {
       display: block;
       text-align: center;
-      height: 27%;
+      height: 35%;
     }
 
     .haeder-h1{
@@ -703,6 +703,7 @@ margin-top: 30px;
 
     .our-menu-titl-h1{
       font-size: 15px;
+        margin-top: -5px;
     }
  
 
@@ -712,6 +713,7 @@ margin-top: 30px;
 
     .our-menu-titl-2-h1{
         font-size: 15px;
+         margin-top: -5px;
       }
    
   
@@ -721,6 +723,7 @@ margin-top: 30px;
 
       .our-menu-titl-3-h1{
         font-size: 15px;
+           margin-top: -5px;
       }
    
   
@@ -730,6 +733,7 @@ margin-top: 30px;
 
       .our-menu-titl-4-h1{
         font-size: 15px;
+           margin-top: -5px;
       }
    
   
@@ -763,7 +767,7 @@ margin-top: 30px;
     }
 
     .About-div-1-p{
-        font-size: 12px;
+        font-size: 10px;
         margin-top: -35px;
     }
 
