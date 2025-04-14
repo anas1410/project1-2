@@ -564,3 +564,180 @@ margin-top: 30px;
     text-align: center;
     padding-top: 30px;
 }
+ 
+  /* 📲 التابلت */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .Home {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .Home-div-1,
+    .Home-div-2-img {
+      width: 100%;
+    }
+  
+    .our-menu {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  
+    .About-div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  
+  /* 📱 الجوال */
+  @media screen and (max-width: 600px) {
+    body {
+      font-size: 15px;
+    }
+  
+    .haeder {
+      display: block;
+      text-align: center;
+      height: 36%;
+    }
+
+    .haeder-h1{
+        margin-right: 40px;
+        margin-bottom: 10px;
+        
+    }
+  
+    .haeder-nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Home {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .Home-div-1{
+   
+        height: 600px;
+        background-color: rgb(0, 0, 0);
+        display:flex ;
+        flex-direction: column;
+        align-items: center;
+    }
+  
+    .Home-div-1,
+    .Home-div-2-img {
+      width: 100%;
+    }
+  
+    .Home-div-1-h1 {
+      font-size: clamp(24px, 8vw, 40px);
+      margin-top: 190px;
+      text-align: center;
+      
+    }
+
+    .Home-div-1-h1::after{
+        content: '';
+        width: 100%;
+        height: 5px;
+        margin-top: 25px;
+        background-color: aliceblue;
+        display: block;
+    }
+  
+    .Home-div-1-p{
+     text-align: center;
+     margin:20px 0px 20px 0px;
+    }
+
+   .Home-div-1-button{
+   margin: auto;
+   margin-top: 10px;
+
+    }
+
+    .Home-div-2-img{
+        background-image: url(../img/img1.webp);
+        background-size: cover;
+        height: 600px;
+        
+    }
+
+    .our-menu {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .About-div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .About-div-1-title::after{
+        content: '';
+        width: 15%;
+        height: 6px;
+        background-color: #d87817;
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        }
+
+    .About-div-1-title{
+        padding:5px;
+    }
+
+    .About-div-1-p{
+        font-size: 12px;
+    }
+
+    .About-div-2-img{
+        margin-top: 20px;
+    }
+    
+  
+    .book-atable-grid {
+      display: flex;
+      flex-direction: column;
+     
+      
+    }
+  
+    .contact-div-grid-1,
+    .contact-div-5 {
+      width: 100%;
+      display: block;
+    }
+
+ 
+    .contact-div-3{
+        text-align: center;
+    }
+
+    .contact-div-4{
+        text-align: center;
+        margin:auto;
+        margin-top: 20px;
+    }
+
+    .contact-div-5{
+        margin-top: 20px;
+    }
+  
+    .contact-div-5 input,
+    .contact-div-5-button-1 {
+      width: 95%;
+      margin: 10px auto;
+      display: block;
+    }
+  }
+  
